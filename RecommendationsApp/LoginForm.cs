@@ -139,7 +139,9 @@ namespace RecommendationsApp
 
         private void button3_Click(object sender, EventArgs e)
         {
-           
+            this.Hide();
+            MainForm mf = new MainForm();
+            mf.ShowDialog();
 
         }
 
